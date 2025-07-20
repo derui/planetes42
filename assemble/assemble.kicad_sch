@@ -3765,6 +3765,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 54.61) (xy 212.09 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298c3d40-07db-4310-8d9c-6f6d65e9f135")
+	)
+	(wire
+		(pts
 			(xy 54.61 121.92) (xy 71.12 121.92)
 		)
 		(stroke
@@ -7170,13 +7180,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 85.09 60.9599 90)
+		(property "Value" "VCCR"
+			(at 87.63 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8438,6 +8447,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 212.09 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f6f09dc-f1e7-4486-8264-cc8c7a5bb6dd")
+		(property "Reference" "#PWR014"
+			(at 212.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCL"
+			(at 212.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 212.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "229c8924-feab-4964-96ed-c523383fa2be")
+		)
+		(instances
+			(project "assemble"
+				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 92.71 195.58 180)
 		(unit 1)
@@ -9307,12 +9382,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 80.01 21.59 0)
+		(property "Value" "VCCL"
+			(at 82.55 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12622,12 +12698,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 223.52 45.72 0)
+		(property "Value" "VCCR"
+			(at 226.06 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12954,7 +13031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VCCL"
 			(at 320.04 46.9899 90)
 			(effects
 				(font
@@ -15628,6 +15705,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 212.09 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1c00332-8e90-4ea6-94ee-f9e49ea5ef18")
+		(property "Reference" "#FLG04"
+			(at 212.09 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 212.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61b6171d-25f1-4921-8f0a-a872e244539b")
+		)
+		(instances
+			(project "assemble"
+				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 240.03 153.67 180)
 		(unit 1)
@@ -17366,7 +17509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VCCR"
 			(at 384.81 44.4499 90)
 			(effects
 				(font
