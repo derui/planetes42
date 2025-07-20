@@ -503,7 +503,7 @@
       "plot": "../jclpcb/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "assemble.step",
       "svg": "",
       "vrml": ""
     },
