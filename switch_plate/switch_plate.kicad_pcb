@@ -1,0 +1,6913 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" jumper)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "../jclpcb/")
+		)
+	)
+	(net 0 "")
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "0334bacb-688f-4859-8334-fe21507d02b6")
+		(at 248.44 91.2)
+		(property "Reference" "SW38"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "140a9f57-77f1-4ea5-8cef-0e42387942a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0d981b7c-0375-43e4-a9f1-08273c4717ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ab7005a-183c-4c57-ad54-80d8dfc1b583")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2eb48ced-d8cd-44e5-87e3-3b97fb8e33e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/42e09b64-0a72-4ff9-bb7d-bf42c88309a6")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b14e70fa-8716-47ab-b41b-ce76541d9e48")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "73a8f060-e49e-4bdc-964b-f236c01b4fea")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bd27ac4d-1961-47f2-bbb1-c67205c6e0fb")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3e973dd8-9b23-483e-b803-314c8bfc03c5")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d0821f35-98a5-4886-becb-259048c8b118")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b2ab1d41-89e7-4856-a7f5-34c5faf81474")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e58785e2-5f4e-4b2e-a8a6-3f0638bab356")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a2844762-c926-4fd7-be5d-0007c9bd280a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1be85916-086e-43ba-b7e4-1c19686940a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "043bfdb7-b9f9-4bdc-a880-f13ecd2d8872")
+		(at 208.599961 74.599957 22.62)
+		(property "Reference" "SW30"
+			(at -0.15 -0.5 22.62)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "212f612f-8bc5-4dfe-aead-0d1ea0a73fd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f78ea420-49e8-4fb0-ad41-e1d75fd4fa5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "519995e3-9656-4055-ad1a-5a65db09d47f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac8cb483-1d8c-4894-b35e-3928fb61f9a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8b438749-9ffc-4b13-a7e9-38be73047c2c")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7aa44124-84df-4335-a274-95481de505db")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1c75db7f-a97d-4383-8520-8033f6ac790c")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8d4a9864-adb3-4a42-8f3a-0f881a563fa9")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dda7b954-542b-481f-800b-e1c32422f66f")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a6ee2f81-fd53-46f6-8cc6-8175fa7799a0")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a3ef1f9a-fde3-4a47-ad71-3677363886d8")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "708ce8e9-9c8e-4b7f-b4e8-7c7855517670")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bf69730f-08d2-40cb-aac5-3407798af459")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.150001 2.5 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6028fca2-78d7-4902-b107-4286ebb23290")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "068c0e6a-5f53-4b43-9ef6-5722d2161586")
+		(at 32.68 74.6 180)
+		(property "Reference" "SW2"
+			(at -0.15 -0.5 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3f197864-e57f-40cb-b750-1eba38390ab2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7bbdf98c-7bf8-427a-b5f7-ff5b3d68cd25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afc3bce0-220c-4b19-9eab-320b36a0e8ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0e3fb13-0cf7-4cff-abb0-8a6f784ebc59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a0d6682e-347e-4e7a-a3ed-00ee2d3f82f7")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "92df6cc9-8c0e-4bf3-8dd9-871b83efbe1c")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "13c2370e-a22d-4506-a4e3-378067324752")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c6249e2b-a192-48fd-a329-f9f7abdc7782")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d9b009b7-39d1-4c93-bd94-85d4e352852c")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ca229f32-4138-4169-a6b9-ffeed42b1098")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4d0a961a-3ca1-4483-acf4-1bfd0d5901ae")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ab16f319-e023-4c7e-a2b7-ff49ca90fd70")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d340c302-bd27-42c8-9d06-2b10d0635494")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0a85f106-d1a1-45e8-9eb8-b2de0b5eff3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "27c9cd67-1c90-4ff1-a688-5cdf71934859")
+		(at 181.273876 103.969252 22.62)
+		(property "Reference" "SW24"
+			(at -0.15 -0.5 22.62)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c33f23e5-994b-45bb-a3ea-fbfd93de733f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e7291ba6-0593-4b4f-8dd4-781201499d07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08f3a3a1-212f-407a-9a00-fdf5a94c3a96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fe9795d-b450-4b49-8d6a-e1b36e5d1577")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/731b3f50-e67d-4dcb-96c6-412c5652ca87")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9d9cb29a-f22a-41dd-8bb5-2807465ee944")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "17179e0b-7cc2-4058-be0f-b128da4bbd0d")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8aaa5b06-acc7-44ed-9eac-c02c260891c2")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7e66cfb8-a348-42fc-a5b8-13ab4db67e80")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "338f79d5-b4f7-4411-a6ba-0c8fd8e37085")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "05728c62-52f3-4bcf-9e12-1b49559ab736")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0ecd7271-349d-4a93-ac07-6a686dc58330")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4ac27b02-1e64-4db7-ab56-c2c58c7e2a7d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.150001 2.5 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0ca3c813-2af2-4f61-bba8-1e0155629a73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "29bbb7b8-43bf-4adc-8c2a-080fd7e45351")
+		(at 118.999922 124.400035 -22.62)
+		(property "Reference" "SW21"
+			(at -0.15 -0.5 337.38)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fd73be51-e9a2-4a91-9333-c474b671cfe7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "90010066-d4e9-406c-83c9-5960f47859f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ce48b96-1c72-4be2-8100-9c244af5256b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f833e23-76a0-4dd2-95d9-66bc09b5f350")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/1c610bca-b4ce-481c-9b4b-8cb7f1986ece")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5ddf3685-dfc6-43b9-a902-46449e8c40ef")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6d784edd-4b78-481c-a378-d3d1576aea38")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0459e5af-bd62-4169-a394-39f3bd0823a4")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c4565095-222b-4740-96c2-1f4e931b1850")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4bf34fd5-2aa7-47ec-9d50-ae2281cf0886")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "891d6f97-1a0e-4be2-ad5e-bc63775caf71")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ef81d331-4dca-4097-87de-cd9934bd0cab")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "92323f96-7930-4e64-83c1-e993fab618c8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f60c8918-5a67-47b1-a297-3b6283bd2884")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "3886b005-9eb3-4693-9b88-66f0264d56d7")
+		(at 193.276899 80.984608 22.62)
+		(property "Reference" "SW27"
+			(at -0.15 -0.5 22.62)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "50bf5d33-6105-4a34-ba18-3af5e6cc3480")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cc746786-a0a9-484c-aa7b-883558007b36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44f9969e-eb79-424d-adca-4a333dc321a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d637a0ca-3de9-46d5-aa00-ecdf6da2fab2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/bd76391f-6685-4d23-be03-221a29fe22e3")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "00cb35a7-9f1b-4d44-9ad3-c7489dd5b498")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "64abed0c-9847-46e8-9be2-75e384f4a847")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ba02e2a9-7794-43ae-ba6b-743ec2341d27")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1ee4b55f-8aed-487e-b941-0608411d08fb")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2e07c58e-5b7c-41f5-8f28-6d99d339a973")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8955b212-67d4-48e9-9680-956a352322c2")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "18fb038a-38dd-4541-b7c6-27bc4635720d")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d6917ef3-11dc-4ad9-9fa9-9437e146164f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.150001 2.5 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "10774a85-289b-4e76-9633-298bc332b380")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "3b36600d-58d2-4033-9609-e39a7d267731")
+		(at 104.44314 64.384616 -22.62)
+		(property "Reference" "SW13"
+			(at -0.15 -0.5 337.38)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0c83bbeb-ea8b-4775-aa72-4893ea887105")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e17069f0-0720-40bc-96c0-84dd649b4613")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "103e3b7f-9c51-46c7-bb4a-f840462547f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cee1986-af1c-481b-b118-75a828ae80ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e174ddfe-c295-453a-8bea-2160772bde4a")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ae7309ce-ec3d-405a-b49a-0f930daa67db")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7bc9aea2-b409-464c-bff9-55bb4ddbfde9")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "83f013aa-7f7e-4ac2-beb3-479a94fb058b")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "50f76fa0-9362-4830-94ea-5b2744b590cd")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2a7a67c5-dea3-45d2-86ea-66575cdf2c8a")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d4e82a46-f2c8-477d-8a23-efaf2a66f634")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3f725c9d-9cfd-4943-aa9f-91073b37e41c")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ce9d8f03-47b8-4cb0-8eab-5a1ebbb0412d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bec9bd50-7a3a-4dfb-bb04-3c8be0fe0029")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "478c58a5-1c88-4506-a379-9675aec7ef68")
+		(at 174.633798 70.769268 22.62)
+		(property "Reference" "SW22"
+			(at -0.15 -0.5 22.62)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a7db0588-6298-4c71-8faa-9872be067508")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5e931563-bb61-4ae2-a747-c26350bb872f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d05d8dc4-b11a-4f23-a0ec-18d1ee2d0c5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57ed9fe9-d171-4474-bc43-1c80f136658b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/472efaa0-628d-4f44-aa74-459a14e65ab6")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "07a960bb-d949-4d36-a838-74b4453e1718")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "728075c8-8701-4c8e-bb0f-b7daf16d048a")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "38051567-2fb0-49a8-82b1-8383b0b631f2")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7931f531-56a5-4ad3-8225-ff8ed05d9c31")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "62074e61-9dd7-4687-aa68-a2ea702807ac")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "462afcf5-67f3-4ba5-a114-3b1e5398cafe")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "635629f7-8bd9-4286-9036-c6fba0069fb6")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ed63d735-97c0-4b89-9808-e19af2ef1fd3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.150001 2.5 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "155377f9-1ee6-468b-8b1f-189157d26ff7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "517d8beb-b014-402c-9288-33ba2b8e1a9d")
+		(at 65.88 74.6)
+		(property "Reference" "SW8"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "10879994-997a-421b-ad6f-cd95572f4ff4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "620eaadb-c94c-40f2-98e9-aa6cb76035eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1fd8b50-508f-4e77-976a-2a8b8763b0b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a0a97c4-f89a-4f27-b2a9-4fab41ae41ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f0bebf04-407a-4cea-b91c-2df5007e8350")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fe292776-2b88-4bda-bb2c-5e53312cec17")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9d63044c-b6fd-474c-9e4b-8ba8fcb4be18")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "12345c6d-7164-4107-b550-627975e55a50")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7ca40b73-f4d4-4387-9635-85fd15e65f99")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "158ed345-a51f-44e9-a937-ae61cf4398e3")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6a493f99-ac37-4448-98b2-96b602d60407")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "07b3c29a-3edb-42ae-861e-df050485860f")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3fed4d44-6acf-40c9-a7ac-6dacc6520129")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "56ba1f20-215a-47d4-b5e4-e94b8bce1030")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "51fc14fd-0472-49d6-a92d-0427a8600e78")
+		(at 175.400078 124.400035 22.62)
+		(property "Reference" "SW43"
+			(at -0.15 -0.5 22.62)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0745a881-2304-4728-a489-7e24fef27d53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9e412964-db5b-4517-b11a-ab37944eff01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cc204a2-3f95-49ba-858d-69ed279d0517")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87306f86-0fa3-4572-b47d-4b19fa137876")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2cba950f-f3db-40fe-b4a4-78afb75e27f3")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9f5a5909-e553-4e6e-bc1a-bf7d469795b1")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8821efbe-063c-416d-bdac-deb4dd9e1ad0")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "59e035fe-013a-4b9e-9083-1302834dbd72")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5638f26c-5eea-4ddb-b0a0-3a4870a93192")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "75451f71-c599-4f9f-bfa7-8266ff3d548b")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "be9b92a2-0a93-4633-acf7-4ce9494b57b1")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "811d960b-ed00-434c-9d46-77140d262e0b")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fe021a78-e496-4d20-9e9a-6bc0585edef9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.150001 2.5 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4348668d-21c5-4029-8b7b-f9b7dc4482df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "52d03bf6-c1f5-4b2f-aa3c-963fbdda457c")
+		(at 69.2 58)
+		(property "Reference" "SW7"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ac8f08e0-b900-4fbe-90db-724c5f424afe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d53dbc26-9acb-4087-99ce-c1fee17a256e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d8fdc49-aedb-475d-b928-0e61862bf2a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbc98cb2-f374-48cc-99a6-5dc979c5da0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3b76069e-adb3-488d-a95f-26fc525ef601")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b423943e-d386-40af-b0d3-044ccb08b4b9")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8a17db0e-dd30-4d7c-b83f-0fec27288ed7")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ea63db44-ec60-4e49-8f97-3c934ee785bf")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "faccae19-cc4a-4fdc-8017-f03a032ee834")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a97b017c-5113-4c7e-854b-5fbfb5c59b4a")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cbf09215-26a4-43b0-bf45-b03c7462c26c")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "accb0f7e-6148-4348-acad-874050c3bbe6")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "37a33de1-eaed-4235-beec-46b3efa37830")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "aed8f65e-315e-4b7e-a9f2-c746eeeb9de6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "582c6b41-cbac-4ab8-809e-94ce699f9648")
+		(at 88.353798 111.630732 -22.62)
+		(property "Reference" "SW19"
+			(at -0.15 -0.5 337.38)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "74a80e7b-b783-490d-acd0-86ec0ca47810")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cf9c7a20-b732-4c19-a2df-1877f30de41f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b3e7ac7-a479-49c7-92d1-583141742cf3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f7624b7-c454-4ccf-a896-9edc64441421")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/6c26ead4-e494-4e14-892f-2e320db465fb")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5211c3de-db80-459a-bcb0-5294d50bc7c7")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "21072cba-1aeb-4eeb-a071-3ecec5858ff6")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3a49d939-79ae-4042-b8ce-3a58db960c34")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "39569832-d2bf-4d47-8bcb-d8b7b7aa61c9")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c96119ff-4572-47e5-a5ef-412d700e9e88")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7496f072-c02f-43e4-aeca-2ddd1bc3a3ea")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4841ceae-37fa-400b-92f4-9b3605257901")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e870a579-6fe6-496d-a6af-875f914a7c66")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d91adbb1-0cb6-45d2-832e-0eff79219cbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "5ffeeec4-f0aa-4fe5-bd06-3734781cf34c")
+		(at 231.84 91.2)
+		(property "Reference" "SW35"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "aac13fb1-4d21-4518-8e69-d651d3f19a90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a98cf00d-7929-440b-89bd-8b87393227dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd0ddf2a-8582-4e20-9258-f99503d43483")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93e72403-4620-424d-9958-2e9e34550835")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/5e2f96c0-f7ec-4c29-9206-43d826ef6a13")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d556f3df-0bb5-40af-a692-cb700df30fab")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e1cfcea7-16c0-43ff-b01d-afcd71d0535d")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "26355c9c-ca0d-44db-bf5c-6655f65e76ed")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f0635566-504d-43e4-b18f-9c3d5d4e5214")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "62cb98ec-08aa-456a-ad57-a71734f7632b")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "495d9567-a5fb-45a6-88c1-6c5e78617068")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b2d203f4-3c8f-42ff-9af7-39a75066e728")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e3d382d9-ae9a-48c2-a597-ae0be818b7f1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6576b4bb-900e-41cd-8817-03ded763c63e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "64f0ff98-93e2-41b0-a59b-8961fcc1652f")
+		(at 36 58 180)
+		(property "Reference" "SW1"
+			(at -0.15 -0.5 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "dbf919cd-cc38-49a6-99c4-e7cd5b2b2e31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ab069bb1-ce8a-4741-8f5b-e351aea9ad2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "597a42f6-cf10-4527-97d7-01b048c01faf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f335a407-388d-4c2a-b376-bda178962c9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/48c1e541-0c08-4ea7-bae2-c8390d1ced40")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4eb83371-c5bf-4395-9be1-84ffc1278bb5")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "afb8dc79-481c-4df9-b464-355d02136c72")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1ff3b670-77f3-4a8e-9625-60f2654166d9")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c5b4f878-8378-4af5-81c9-52f47dffdb12")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1202fcb7-82a2-456e-8883-38212a806ac3")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "34abfe93-f874-4145-ab76-a834e68ae60c")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ee27beb1-c1ba-49ef-8032-27b48ef9c50b")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "53a8aa17-8982-460f-873c-3d09e179914b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "16e175fb-ab08-4f8a-8aa1-3a638d8f4ff7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "660d379f-23d2-4140-ba6e-d89f7d450153")
+		(at 261.72 74.6)
+		(property "Reference" "SW41"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fbf430e2-7aab-4288-b2a4-0455f1d70c6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "466f4aa7-3533-4242-b6ab-64628248ff00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c845d525-614b-4628-b3c0-834d7aea9cf3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ad3658a-b728-40ed-96c4-22870bd930b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/17eb1aa8-ac43-438d-b744-9034ba273609")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2382ab45-6b42-49dd-b064-b288921a6227")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "91c0fce9-fdf5-4dad-bd69-c82cc131c666")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "41fd27b5-ac0a-4224-82e9-c758ab4a49bb")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "58328ec1-48ab-41af-ac20-e30754666709")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ef91c90a-a203-447a-8fb0-c23b61daa2df")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "25f65bbf-06a0-452d-8adb-8a19a0257559")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dc09fcb9-72d0-402f-b363-d329182af1d6")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f62c34d1-c20b-48d9-ae92-ad80d797c5cf")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2d73cac5-d969-4cb9-b258-3ab98f8e449a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "744faab2-3cb9-4604-9fc7-d2719b2673f1")
+		(at 190.72314 118.015384 22.62)
+		(property "Reference" "SW44"
+			(at -0.15 -0.5 22.62)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "88e23acf-53cc-4b5b-ada6-865a097ffded")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6dd209d6-217e-4c1e-9c37-85e1f34740c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62be89a5-8207-4b49-be4c-956b1d3f2332")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42bda033-4d60-4c6a-a36e-ca06ba8aca1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4d26fe52-2b1a-4f43-92d8-3388162b3480")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "891db0bf-410c-474c-a1aa-ee9bc8a586cc")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a52dcb2a-ae7e-4331-9fe0-93a4d7502241")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d8d32310-a2ca-44b8-bb97-601dc99e345e")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2b2317fc-ab6b-43fe-929b-05e418843ab0")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "64468812-bdb7-4e96-a594-b20ee969eed1")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bcd30ba6-c1e1-4f2e-a3b0-8707138b2b1a")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f7197ee7-ff66-45ea-8521-673497093c78")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "585bf126-b0e6-4d3a-bd8b-b04fe80b846b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.150001 2.5 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "77292ad5-f21c-4126-af50-9edbe88bdf99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "79ae9b46-2da3-423a-9090-c82960a0cf6f")
+		(at 82.48 91.199949 -22.62)
+		(property "Reference" "SW12"
+			(at -0.15 -0.5 337.38)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2a1ecc25-a1c2-4f3a-8114-40811e175add")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1105fda3-1432-4979-846d-981400576a62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4494f8a-51fc-4845-afc5-ae9031aadfe4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a1ff20e-8ec5-49b7-a2f3-c741724eb850")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cdcd6792-b75e-42a3-89b8-6d719aa06765")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "82a95c92-43be-4b54-b776-0591cb6f9119")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6f722c9c-30f8-4b06-b5a9-2dbf6aa6557c")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d77017b7-0a3a-40b8-bcf8-42e5c133e2b9")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "37ecec0f-c3f7-41eb-908b-a696a54ba3c5")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9eb7c440-7539-46eb-bd7e-7b98dec0f7fd")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7e655c9a-6065-4934-a919-d6608bf4065c")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c0b6ca6a-889b-488b-a2e2-28b41fa01257")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b3d37ea8-3deb-4333-92de-cd819b9d7faf")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0f1fe0f3-72c2-4086-ab14-5ebc7e2e22f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "7c5226d5-f4f8-4759-8720-e5cc9f26ced0")
+		(at 258.4 58)
+		(property "Reference" "SW40"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "014f3091-0c29-4ac5-91d2-6dc4f6206835")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7eafe04c-2cd8-4a5a-bdfd-981f5067bfa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5ecfe8b-f93f-46f4-9c79-e3f6e5dca373")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bf0bb0b-9ce1-499e-a96e-939e594f46f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cc92203c-ba15-4c38-9a12-38e5c60e9761")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b68b7101-cea3-4fad-9336-06a661f73d27")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ac059732-2849-45b7-892c-570c5bf00663")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "66efc84a-aefc-4593-b459-29ef95bf77e4")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "391bd317-a123-4abb-83a3-40183f397e1c")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ab3fa467-9f15-4f4e-ab12-dcfa8b0d1f18")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "39450a5f-89d6-42d0-9ea7-9fd4bb4badb1")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f90b6df0-7b29-46c3-9d6f-47694fcdef21")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ad9f05f6-45db-4985-8fb6-2c451e4c7081")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "45f9dbc8-d303-467f-8256-3be476d8b1e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "853f6a66-4d40-4e10-9052-decb83759d58")
+		(at 62.56 91.2)
+		(property "Reference" "SW9"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5b105d5d-b54c-406a-82ef-8fececf54c17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0d3158ce-ce5a-430d-bc64-2726b628e52e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd463eaa-86f2-42bc-878f-d8677fe8ff34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81f1d3bb-3af8-42fc-b017-0baacb850bbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/01179686-782e-4b21-a7a0-0573f07a7ee9")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "29fd4372-6e24-4e63-8536-b7b4732c0af2")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "109e51af-1f7c-492c-9bca-5ca26e73d429")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b3f825e2-4637-4ae5-8abe-cf505532e8ce")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5ce5b7d9-6f51-4311-968c-081c153d80b8")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a0d5fec9-96a6-40ce-83e2-934631ee4bbc")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "118ea952-6a37-4e93-a544-a18dae4656fe")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "704b7fab-646a-4636-ba8a-836dae82118b")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3e89ba4c-5c7d-4e61-aac7-710e057fc8c7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d4b652cf-c1d2-49e2-9bff-0ed74dbbad25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "8f0fa97c-4831-4487-adf6-b7ae5a5b7cfd")
+		(at 119.766202 70.769268 -22.62)
+		(property "Reference" "SW16"
+			(at -0.15 -0.5 337.38)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "843d2450-2363-4ad3-8c44-25612edd7559")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8598dfc4-f309-4ce8-97ad-3283d56a18bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "418c8436-2cdf-4e3d-adad-48da3d0a2f06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4228742d-e4e7-4554-947b-78b3fd7495a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a3d09c23-0dad-4bd2-8e10-2e950d935d20")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "140e7ae5-8312-4d1d-adb7-f795114c1052")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2ce53617-bf43-462c-8be1-f4f8bf73be80")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "51ffbf26-3be8-4fa8-a741-8cd53b1ebcde")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6cb148e6-6dc6-4d15-a32b-d885dd1e490e")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3f596504-14b3-4019-bbbb-8e8e6f177511")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "800f183e-04a3-4b95-8dd4-c0df8c539915")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e303e171-80d2-4969-9dbf-fd7bc54d071d")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b72666fe-239d-4761-8be2-8670ea5611eb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "641a99bb-e67d-446a-a049-6b438652eb23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "8f46d60e-c2e2-4cc6-8346-56f8eca598fd")
+		(at 52.6 58)
+		(property "Reference" "SW4"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3ffe0943-51ef-43bf-941f-fd4a255e58e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b77a3da8-f5f8-41b1-9ef4-9e3cb65a0b3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "873528ea-777c-4ac0-b04c-5a6c63d24045")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c43bb22-ea4f-446c-aba4-c996b6eb047c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f8a1302d-4d02-4f86-bf2c-2665348f021c")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8b397e14-94fa-4b28-a220-34ffeba47fe4")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "917863fb-6b8b-4ea3-9d19-9ca071045a1a")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "22118eab-a73c-4e35-ab30-8e2962790a62")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "624899cb-544d-4583-81f8-fa2676742dc3")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ce843e38-1f85-4d8d-8347-e4c19cc3af33")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "28aa745d-5e89-4311-9d4f-4109affbb615")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b80e9490-2a12-450d-ab68-8abf2f394fae")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "736e0c80-4f6e-4489-9f31-c7af7ad9709f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "905fb316-abca-4aa0-b281-4e3c37d253ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "96c0c93d-031d-4916-8945-67bc51c3d53e")
+		(at 241.8 58)
+		(property "Reference" "SW36"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f785c1fe-b389-4143-94b1-4b3992d71e56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ecb88c80-9b1e-408e-b5d2-5a0db82fb9dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b16ee028-e6e9-4ea1-b31e-444e21f7aa17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f92c0ac6-ebf9-4a28-bfe3-4e3c7e14e433")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/47a136e5-81b3-4b44-a471-835ab7761522")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7753746b-517e-484d-ace7-03e89cc4846b")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9a5cd152-83e5-4b6b-8b97-0b663d6496c6")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2389af7a-ef79-4593-b959-266ddae9453b")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d9b14a8b-9584-45b1-a5ed-13e0f1beffee")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b0cbaf40-72d1-4398-8fb8-93d3dde3bfb9")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f7de036b-65c8-472a-957b-e1103c458880")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "078c51e8-9ae9-4894-9544-5e0a9105806b")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0e21873b-b36f-4cf2-83be-cb82adf50a7c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8838c2f7-b484-43f2-a698-a0cb30ea0493")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "a2b52e33-35f7-4f6c-81ff-19022c14b4f6")
+		(at 211.92 91.199949 22.62)
+		(property "Reference" "SW31"
+			(at -0.15 -0.5 22.62)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "21aa866e-ca59-4ffd-92d4-c6302c1c3b25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "aa2e64f6-ba00-4e79-88ba-2d5f051757b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a129141-c92a-4c81-8a28-2346fe7b24f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c847e856-ffcc-4497-b530-e760df7bc472")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8a4cc32d-1b79-4f44-908b-05bbde130276")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ff65de8e-89f7-4e23-963c-98ae1b646705")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "58ed959c-67c8-4c10-b31d-771ff3537cbf")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "956faf8d-f0b9-4c7e-b178-cdd13114fa24")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "19e28234-6d86-433d-b0d2-2c315ae6c7eb")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "54b5ecc6-cb6e-41f4-8018-3888d99d431f")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "255306c9-b427-4407-aaf2-363c794f47e6")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4bfe55df-1bb6-4d31-996b-9f4b8928b297")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "97e81bcc-207c-447a-87a2-ebd88eb4690d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.150001 2.5 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "714215ab-112b-42ab-b122-5a1d8c818629")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "a8b72888-e03d-4d60-87c4-8a4ed6fae3f1")
+		(at 116.446163 87.36926 -22.62)
+		(property "Reference" "SW17"
+			(at -0.15 -0.5 337.38)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "4d92a5b1-0831-40a0-a758-285cc0299e22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "285e72ed-68e9-42fe-aae8-599449889515")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad0ce046-36f5-4eaf-aa7f-e98d663a864e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a171496-0410-4696-9e41-462b9ac30707")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4252072e-5b5f-45f5-8407-7e218a11b471")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "747597bc-765b-4fe6-9af9-986500bde244")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fca53cc5-044d-4518-ad68-4d1a3f0955f3")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "53958a8b-ae79-4587-b9fa-c65a6e5b60eb")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "50423847-3309-4f4a-b74b-9a65488c8ac9")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dbbfc2bc-8bfe-4a4d-a8bf-513058e48689")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "59edf2e3-a9ea-4de7-aea1-848d016ba331")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ee672049-5149-44a7-8db8-56e219af2a57")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0b29ec58-b397-4155-ac74-d139409c82da")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3fe9087-79a2-4d5c-b278-54feaacdd80d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "ad2dc88b-7d78-491b-bc78-15975d070f27")
+		(at 101.123101 80.984608 -22.62)
+		(property "Reference" "SW14"
+			(at -0.15 -0.5 337.38)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "851fd991-c2bc-48bd-b64e-2384e50bd099")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d094f4d1-f681-4916-a3db-2703078342c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a34bf40b-ac5f-4909-9412-373c09834331")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d06651e2-44f9-4071-964c-a02b77997e62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3a04c049-d30c-4a33-9b72-b7d7fb6e9389")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b177be51-ced1-4660-b3de-24d3a9c80c4a")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f3c17e35-8ff3-4571-9078-4a8d1c6f0168")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "616edeb2-21e4-4adc-815c-f431fe30e7d0")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8b667640-137a-4909-a388-cbe2da704048")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a232ea79-781e-4c29-b4ee-5a703fa09345")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "67773b2c-66e3-473c-abf6-7e6222dbb06d")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "673affad-8917-44d4-b3db-7d2200704c96")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "09fc5ce1-e65f-455f-b757-3b2592fcd7c2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f75560be-290d-4f4c-81b7-569b99983e40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "b33e6a85-afbc-4d37-b04a-c01d6f2baa05")
+		(at 85.800039 74.599957 -22.62)
+		(property "Reference" "SW11"
+			(at -0.15 -0.5 337.38)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "63a1c896-090d-4246-b605-e63ba4a2dfb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3ee87065-f8fd-4cf3-94b2-3c8bd9510aea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a2809d2-0de6-46c8-b29a-12f9a1ddccd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a68afc17-ed92-48d9-a41d-93b81728bdc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/6789cad1-b298-4258-9787-da299e796782")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fcb74efd-c218-45d9-b0b9-d34102dbcca7")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5738a6e5-d761-4216-bd3f-ccd98abc4630")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9908af42-e39a-417b-9b51-c34a5a3eeb65")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3f489f01-6f72-4cc6-8f4c-be87cb80a51c")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ba451900-9dab-46dd-8f48-885f40fcbe24")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4c8c7b8c-0716-489d-b4e1-a957aa208f51")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5b1cce37-005c-4438-8e25-4d0d2e9421cc")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "53dbaff1-0013-4984-8e1f-80bfd4c546d8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "080f01f0-780c-4f41-a2e2-763d19886b8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "b5213934-e7d1-4050-9885-0ed75616a889")
+		(at 97.803062 97.584601 -22.62)
+		(property "Reference" "SW15"
+			(at -0.15 -0.5 337.38)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fc51299e-c6c6-4762-a93f-30c33c9223dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5af86bf8-bfd5-4bcd-91f5-ea333e94b294")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef658f73-6a01-4451-93e4-2306edcc14a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5953a409-8cfe-46e0-bf41-5f9fcf3bde85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d21f8022-ba46-4701-8cf8-5819ac0ad832")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2b2161c3-cc62-4eb0-a63d-3325d3d1f10e")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2bd4a3f5-803d-4ae9-bef5-dcc030e5c21a")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "84041f47-d98e-4a73-a674-5263f26261fa")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "aede5deb-807c-4090-a8d0-5922bea15e9c")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "245b2a3f-43dc-4f61-9315-351850399c42")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c1c32d59-9153-4ba1-a08d-c0def47f547f")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "67ebbe20-a002-49e2-8359-0116977755a7")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "79dec785-d5ac-4ec2-8d46-e7b40fefad89")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5a26ba6f-a613-4488-b8bf-7d223cab7d63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "c90bdd03-36f5-4b15-8f0c-4c87f4793e10")
+		(at 225.2 58)
+		(property "Reference" "SW33"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6e8381ee-2d7d-4d99-ab09-435aa03b83cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ea66658a-299c-49ee-88ab-ff35054d4d00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3845f2c-08d2-462d-9e58-84cb1dbdb7e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fd92fc8-4972-4a8d-a157-6f8edd301ba0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ddcf0b81-fd7b-454b-a48b-eca491b4f7e1")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b0607a78-1a5c-44db-94b1-d659a2e962cd")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "526180f9-4b3a-44ac-b93c-be6b339c884b")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3fa4928b-d42b-4720-9b40-124b9b83ea6e")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "47989011-abc9-4d98-ad3c-cc4a46479b18")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "45454f6a-626f-4e47-b0c2-87f23649314d")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "409291eb-77e7-4b47-92a5-a795b7b23262")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4aace389-2956-446a-a8cd-77da42297360")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9ba6ac2d-f89f-48ef-8a56-bb85943a232b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "82954086-06bc-449a-85b5-f432701fb156")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "cbe013cc-8823-4fe5-a7e9-4cdb11ed94f5")
+		(at 245.12 74.6)
+		(property "Reference" "SW37"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7b97726b-c987-44af-8f26-82af601dab9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "610ecdff-b274-43a9-a4f7-4eb73ecc2f14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb196cd6-a0fe-41d9-9a73-1a81fa6d3530")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20532c7a-e3e7-49af-af5f-28ef7ec4e18c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/7bb1adb4-f1f6-4d67-aa5b-2da04373e43b")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7712ce8c-a707-489d-832b-7488be026f99")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2b96b0d5-03cf-46c0-9dd5-45261732d7e8")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5efdb285-6b9f-45e1-8fe3-d2c32c5fbdf8")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a3a30c33-c38e-44f1-80b0-e7b683592448")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8709d18b-bb58-4857-98b0-5b8824b38c50")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "034196b6-b225-4846-aa7e-cad61b0aeedf")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "758e4b7d-8089-4b9c-8164-afa8e4c1cb9c")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "358702e0-fea9-47db-bd05-82d50022d349")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1a605298-ea89-45bc-a897-6767692afa66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "d068a09f-2014-4cf4-8140-a7791fd36f6b")
+		(at 196.596938 97.584601 22.62)
+		(property "Reference" "SW28"
+			(at -0.15 -0.5 22.62)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "50d0ceb0-dbf5-4024-981d-efea2bbaeede")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d9f96675-df1c-4936-bf85-ece1c401ec1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8c98c19-7257-44a8-a535-b37d80c587ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e93aff3-5b8f-4f07-a869-a85f8575c200")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/85bdc060-382d-4249-9ad5-cfcda80b013e")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "95f38045-0385-4460-a418-5f8567b0c85a")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8eace233-d06c-4e93-9690-f88f72525847")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "28edb2ac-4aa4-480a-bcf4-b78ff5d5fceb")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6622a1a6-d471-4a10-a103-3d490e10f914")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b21d6c83-dc39-4fba-8c8b-eeae34411593")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ad778f19-1251-4335-a3ca-3a399b1e0559")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f34d58fd-b39b-4d25-9b89-4ccfdd4c3dd9")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "97d88850-d14b-4889-a78e-38983176400e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.150001 2.5 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ddc2fe35-c2e9-42a6-aad6-6ea1e0b9addb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "d07b21fd-1f4f-45ba-95c8-b1ea48845f5d")
+		(at 205.279922 57.999965 22.62)
+		(property "Reference" "SW29"
+			(at -0.15 -0.5 22.62)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b8743283-772b-4f0d-bb48-b51faa0dc983")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ae5a1dda-b057-4723-8a92-35664956b233")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4b47556-f9ce-485f-86df-4e63a1b03597")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1050e714-f4f6-49cc-b2a8-d117f7c4e6a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8a03e591-7821-412d-af62-1e16e4c47fef")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3de79587-0388-4ce7-8f70-fc0baca63853")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ea9f4386-1e73-43dd-be03-75cfc3b75d9c")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7cdbb57e-909f-46a5-8977-377ee5b0eef0")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5821249e-7bc7-4ae9-a397-dfacbf2f4d80")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4ce6598a-2a00-4110-8cb0-9eb97c44fa0d")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "55a46f95-e597-470e-b5c2-936af93323f1")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e7e6b962-6178-4f03-a58c-d32f49097a56")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "88a36270-1111-44ad-bc03-05ee23e242f1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.150001 2.5 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2b3c1dac-c894-41e1-9cf3-72caad966825")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kbd_Hole:m3_Spacer_Hole"
+		(layer "F.Cu")
+		(uuid "d0d750c2-0a7d-4581-bca0-27c221b334ec")
+		(at 154 130)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "Ref**"
+			(at 0 -3.2 0)
+			(layer "F.Fab")
+			(uuid "f397f3e6-d27b-4fae-ad0d-30a827edba44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Val**"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "b56bee30-bb39-45e1-9def-fab89d1075cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1843fff7-2f54-4892-9add-02cae286869f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dce24adf-e4a6-4f81-8006-c0656becf902")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "bbc4586a-445e-4c8e-b31b-801df81b9c30")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.3 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "cd327536-44f8-484c-a3ed-d31386fa154e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "1699caaf-8855-47f7-9b0e-b1a664b291d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "966577e7-d37a-407a-bf67-d67f42bd7c7c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "d2b84e1c-62aa-454a-80ba-527e30f3fc7e")
+		(at 228.52 74.6)
+		(property "Reference" "SW34"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f9a790e4-4561-41f2-a270-f1ba6007f18c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7120c242-81e2-4e13-8358-07cab2d7ebcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88fb22d4-e4ac-4f25-b60d-b464c81a2586")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39dc4f57-c7eb-40ec-8b6e-6f2e5d773264")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/fdc387f9-06de-4199-8bc1-215698f0859b")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f0ac963c-7c8c-4d14-9eec-f30639e6fda8")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ae106114-02a9-4889-b352-d8e9e8af3644")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "54790374-4ce8-4634-8751-d6079c64b20f")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "945a7488-f181-4743-abbe-8464247c1371")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b903b828-d04e-44ad-ad30-8a8a27de1a3f")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "74b8ed57-3855-4b2e-853c-c7da47fcbe85")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "45643825-76c7-420e-901e-b27594ccf43d")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1339e92f-c05c-4e2e-ab29-6a26f668e8fe")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c25b8f17-c163-4f77-8747-8e344bcecab6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "d57da442-d2ad-4a4a-abf4-b0aaa63cde8f")
+		(at 103.67686 118.015384 -22.62)
+		(property "Reference" "SW20"
+			(at -0.15 -0.5 337.38)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "eca46b25-1f4c-4586-9b84-e2defa694833")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ee55634d-7db0-4619-ab28-fd7a2dbaeddb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "717a87c8-fd21-430e-9602-8b1b9ee5dad9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e77f0f53-1a2d-4650-846e-1a8f7f76bd8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/913237d7-6b2b-4bdc-8595-b4fe286b8c7f")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "55e0c3bc-8013-46c0-aa93-d4b448729cff")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "462426af-26e5-4d96-b48a-b72051dfce6e")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0df338c7-bc57-49a6-8e60-ed2228d11889")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bb8b4d0f-9f7e-4360-8392-99dfeadecf19")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2c4b95c8-1560-465d-9e7f-2868b9923c84")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5a1eb5d8-3283-43aa-a170-c03707bb7a13")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b812aeb5-c149-434f-8606-97921e86a582")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "98e19177-5fee-4152-989c-3d1bb15f1fee")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b8e0ac19-7a79-4d2e-a2fa-2bd00fff9a99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "d5ef6e34-6c14-41f8-bf12-7ada7f99aed4")
+		(at 113.126124 103.969252 -22.62)
+		(property "Reference" "SW18"
+			(at -0.15 -0.5 337.38)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "15fcfd88-912c-42fc-9cc5-99fe1a6ceaa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ff14e218-cfff-4dc9-8646-7b68b7cb1d05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9085a900-1201-42a8-967b-1f0faa0f9fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ecca6e7-90dc-4bd3-8260-e0e9479ed283")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ce19058f-18f0-4c89-8018-5cdc39b68206")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0a338b9e-97d3-4e04-a62c-73bbe94c7189")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "263540f1-7adf-4d46-9b60-3d83a750f296")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "02b9734c-72f6-4d3e-92e0-0e639f5d55f4")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ca41ce18-638c-4027-8cd3-c84f16ac9245")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "35554e35-ef65-413b-9817-8a5cb0bf98a2")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "256d941c-a654-48f7-a5a7-1dff5d4b244f")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d7c8a295-3846-4db9-9e2e-cd13ea8d9426")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "00f441da-98f6-48f2-b33c-c5a9412b0d4a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "64cf5117-2926-4606-81fa-4cc936a75ac7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "dad72cbe-9be1-46ea-9e21-fee675afabf1")
+		(at 89.120078 57.999965 -22.62)
+		(property "Reference" "SW10"
+			(at -0.15 -0.5 337.38)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "1031f409-64cc-4222-8d3e-46b7656fbbc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b0fdbd43-0b59-4cc6-b4d2-b38212adf121")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5bfd4cc-8250-418c-96c4-abe854e933a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdd4ed0c-2e37-491f-8e06-0dcfdd739c7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/7cca5b8a-77fe-4526-af3b-964b0fecf2d0")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1898dd26-9ccc-422e-9b1d-364e115e87d9")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a5b823fe-813d-4be8-8306-3b2621bb52aa")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7f26b22e-63f2-45a5-b2d7-c5c08a31b039")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4e1d747d-98e3-4b20-adfe-8eea4615a6b6")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c2cd1ee3-705b-434e-8fb3-1d2b4a02c34a")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ed4b1e84-bdbd-4bb3-bb89-94a110bfb03c")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f3c26468-48cb-49cd-90c6-1182f5ed51e2")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d71c66b6-143d-46b5-8545-0988e3cc5802")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 337.38)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a28fcb7e-fa3f-4688-938c-21fa7b0799e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "de1370e4-837b-4f10-b7dc-0248f265b53f")
+		(at 189.95686 64.384616 22.62)
+		(property "Reference" "SW25"
+			(at -0.15 -0.5 22.62)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9dd93529-9eb1-49bc-b2b3-1ca00e340fba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fac3e527-9069-47ba-823c-f897ca435b5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75e2204c-e1ea-4d42-940a-39db1212ca9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac9faff6-aa91-42c8-9cbc-9d7bcdd07155")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cf4acd3e-fd60-439c-9bbd-9d27893b1f6e")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "94b6ecdd-4f20-447e-83ce-5ff2f3e887e2")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d7fa9f00-091a-4034-9826-3e6e1ece1a1c")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "275fc22c-12f8-4abe-9700-9816a5b04de8")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dcb9ff7e-81ce-4199-b0d4-fa45d0bb151e")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fd3b6e95-53c8-472e-9fb1-4636e8f306e5")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bf5798a5-6c41-452f-a5e7-6c13c6fe0b86")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f322b4b7-1138-45ef-aff9-a5065b4f669c")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2af6e4b7-1a41-407a-b043-dccd7311c2bc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.150001 2.5 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e85f1dbc-9df8-466c-b2d3-f22a5bb6f9e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "e366c1f2-773c-4773-bfaf-328789f426c0")
+		(at 49.28 74.6)
+		(property "Reference" "SW5"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fea002c8-2cc0-4724-97dc-c1e32f2e86c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d86a849d-cc5f-4b18-a0b5-91387a748acd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49228989-b0e3-480e-987b-07a24c639743")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a835bef8-982a-41bf-bad8-0a7c5ea892dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/97da01a3-f42a-410a-87b8-587a00b9867d")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c95c27d9-a226-4703-99a8-e10a1387a6e5")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "50d0e531-2824-4911-b12b-9700a790ce29")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "95943b49-22c0-4727-974d-3e0ff47cee4f")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "61483d54-0ee5-4d05-810d-08446dd63700")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9eb82305-c0b1-48f5-95b1-a9855849e8f2")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0e3617b7-01de-4042-b639-373413c433f6")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "23b73130-c853-49f9-990b-b9353ac3d770")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2116348e-c395-4d0c-a855-a3ee50c5249e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cacfcffe-a227-4b81-9a3d-951073837fa2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "e392144e-93d0-4156-a192-9768764e793c")
+		(at 45.96 91.2)
+		(property "Reference" "SW6"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7bf8692c-8c4c-42ce-82af-5b8a2c24da7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4fb733fc-2964-463e-9131-3b21d8a1ff01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdccf4e2-dfb7-4277-9f54-adeedc6ca3be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bdb507c-4ba8-47e5-ac83-bed206405d0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2a61cb1e-2d88-4312-afc5-e10ee25ff868")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c57783ee-d793-401f-acc7-8afae20be900")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e4c2fa5e-ee5f-4337-984b-c8a7215c36a2")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "54ced95c-f0d7-4114-a3f8-8ba59026e2d2")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c83d4b76-a5f5-471e-8257-994a64d0d9c0")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f45864f5-b000-48fa-871d-1ec389fe19ff")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fd8daf9e-d469-4679-bfa5-b927d35e26d3")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6267ba56-3696-44a5-94ab-1a4c520c7c53")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b03682a4-30cb-478d-881f-cd14d73060d4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "070bd153-e085-485b-9018-653c591287f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "e66eafd5-05f4-4235-a279-34280f3a0973")
+		(at 177.953837 87.36926 22.62)
+		(property "Reference" "SW23"
+			(at -0.15 -0.5 22.62)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d03f57da-35c9-449b-8de7-27846dfa1ca6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "617a4d7c-f170-4e82-afad-30e5bfce3feb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bb386a2-4909-4bed-aecc-3667d6d115a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69aa060c-31e7-48db-8e24-55857e885d09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a1212b34-b0df-4dc8-a01b-429b1b9622c9")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0865a3a2-e79c-448f-ad1f-1d37a2d851bb")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d2869313-4b5d-479b-96ab-cdc2bc16589e")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c879c684-5e0c-4f75-95bc-535129fac9ff")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c0613397-7187-4bd6-ae97-b944b1895dc7")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d30f3b14-4cb9-483d-9b85-29cb8f58593b")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2f72ac02-7e25-4f75-8440-f3d09474cbff")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ae1ecf82-600d-4890-865c-dd934dbdc0f7")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "577dc72e-b25d-4736-8181-4a89544525ce")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.150001 2.5 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3e25f6d7-4b83-4107-9891-7aa6b7520600")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "f0bce82b-dc76-4187-863c-5b15b22ca210")
+		(at 265.04 91.2)
+		(property "Reference" "SW42"
+			(at -0.15 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "35fdeac6-6552-45bc-a1c5-2bc20c073ef4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2af1a580-3a70-4b5d-8cc7-b01a0a3444f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e3afbde-c6a4-499d-a593-2c7b1dd1121a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90a9b829-5c5b-4f40-b7b0-a66979a17805")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/812da6df-e38d-4a22-9ce1-4a8ff8242887")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "370912fe-70de-4c49-8ef1-5a6b3d595eb5")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f9a620d3-1b24-4a4e-ac2a-f51a4df3c030")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1362693f-8402-448d-90e2-8bbbb07ad001")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ba4a3b90-856e-4e64-9643-1ddc648b869e")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f3d4c7d1-cfed-45a5-a4db-759146a938d9")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "51febf40-bf65-452e-b7bb-5a6f3197b339")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "901ab3a7-8acd-441d-a2bc-896398e0e9e3")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f415a049-877a-4503-be04-a6610d94789c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2cc3f145-2290-4935-be20-4a1eac2cc49d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "f2a65be8-159b-4e29-bea3-1f4a0c83b1f4")
+		(at 29.36 91.2 180)
+		(property "Reference" "SW3"
+			(at -0.15 -0.5 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "71e15b11-a458-4c59-8c45-375489f7077f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7bca49d8-4f46-4e54-830d-5814b9091d9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bafe5fd-b439-4f4c-bf0b-c02d82ad7edf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b24064d-bc8b-458b-951f-f16f52ffa110")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/1b810b06-276f-4cfa-bd35-535876d084db")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "250d9c7a-17d7-464b-8b7c-b6b0aed7e718")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f55259c5-3469-4fe4-9bec-f75e04e27fe5")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5bd6c0a8-3f5a-4f40-977f-d22b01075773")
+		)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6f686740-4592-4691-85e8-16aad7afab52")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0ebf72b5-e43c-4bdb-9698-f4f41b8d695d")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "056b64c1-0a24-4060-82cb-a7d057b25e58")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1b8517ef-093f-4b73-a341-d3ae70ec22e4")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7ecd9c2b-7b8b-49ea-9039-a5d5b9e97da9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.15 2.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "37492ab0-5432-4406-9623-485247481c8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kicad-lib:SW_Hole_1u_16.6"
+		(layer "F.Cu")
+		(uuid "fac68aee-8664-4e19-8213-646ed35ed2c9")
+		(at 206.046202 111.630732 22.62)
+		(property "Reference" "SW45"
+			(at -0.15 -0.5 22.62)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "60cc620f-ca6d-45e5-9b5e-a81b6f5e534f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at -0.15 1 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2e0b9f21-1c22-43f9-8848-d73bc5ef9c60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e17f88b2-268b-4d96-9dbe-4fec034e7de5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cbed32c-61bf-4431-850b-b69da37ab0b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/52e8adc0-0adb-479d-8b37-75855eaca3f2")
+		(sheetname "/")
+		(sheetfile "assemble.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -7 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "12e71f2c-d4cd-47d7-97e4-e45625a92387")
+		)
+		(fp_line
+			(start -7 7)
+			(end -7 -7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dc84cb7e-78af-4c76-834a-15324a58a085")
+		)
+		(fp_line
+			(start 7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8b71cc9a-877f-4b3d-b3a2-c5ff7ed3eb39")
+		)
+		(fp_line
+			(start 7 7)
+			(end -7 7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "71ed2737-5d5c-436e-a9f0-41d5c418d388")
+		)
+		(fp_line
+			(start -8.3 -8.3)
+			(end -8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "04b5b6c7-f01a-4257-93ae-99acd803689e")
+		)
+		(fp_line
+			(start -8.3 8.3)
+			(end 8.3 8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "449104e8-2e1c-4012-8f60-f7fd49bdfa37")
+		)
+		(fp_line
+			(start 8.3 -8.3)
+			(end -8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a086db2e-618e-43e1-b484-8c7340ef6de1")
+		)
+		(fp_line
+			(start 8.3 8.3)
+			(end 8.3 -8.3)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d5b9e791-7fa5-4539-950a-ec6aff13b816")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.150001 2.5 22.62)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fcb1e48e-b804-4dcc-b80f-bae7bd03360a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "kbd_Hole:m3_Spacer_Hole"
+		(layer "F.Cu")
+		(uuid "feff7621-4b36-4a22-8ad2-e84f855b3e1e")
+		(at 141.2 130)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "Ref**"
+			(at 0 -3.2 0)
+			(layer "F.Fab")
+			(uuid "9e76c963-01fa-4af8-9718-68dcff28e8c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Val**"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "a543acf8-4dea-41e4-95b6-a30f8a20aee0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a63575ef-d05c-43a7-be5b-3f06ae5ba88d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc225e6c-468d-4656-b5e5-8204feb1dc06")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "e2909a65-8102-4b0f-9687-6f15a6c07d75")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.3 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e708a8da-546c-4086-98d2-7f25786c5ed5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "741748d3-84e1-4435-adce-6231d08f90bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e04eae9a-f069-4bc9-981b-6621a54736bb")
+		)
+		(embedded_fonts no)
+	)
+	(gr_line
+		(start 86.4 38.8)
+		(end 86.4 44.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1ef0ef06-0806-4ce5-bc9e-48cc5e768ab3")
+	)
+	(gr_line
+		(start 134.8 54.6)
+		(end 134.8 72.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2a1e9284-7724-4064-ac9c-81491dd82dc9")
+	)
+	(gr_line
+		(start 20.6 39.8)
+		(end 20.6 137.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "45494cc2-f8c7-4f42-9d21-4683399bf94b")
+	)
+	(gr_line
+		(start 86.4 44.6)
+		(end 125.6 54.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4705f617-27a9-4ba6-a8d4-f5ea492cf9a5")
+	)
+	(gr_line
+		(start 21.6 138.6)
+		(end 274.6 138.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5e0360b3-40d7-48d0-be11-2a4add97a2f1")
+	)
+	(gr_rect
+		(start 55.6 125)
+		(end 65.6 129.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "5ea51768-56f0-4bcc-9a74-67f102460bdc")
+	)
+	(gr_line
+		(start 160.4 72.4)
+		(end 160.4 54.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6792d3e8-d910-4e53-b78e-2f6c7387b007")
+	)
+	(gr_line
+		(start 21.6 38.8)
+		(end 86.4 38.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "68cd03b4-da60-4052-ad75-ae5853e6850f")
+	)
+	(gr_line
+		(start 125.6 54.6)
+		(end 134.8 54.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "74712a47-8008-46e5-bf3e-453a4b8e5b89")
+	)
+	(gr_rect
+		(start 228.6 125)
+		(end 239.2 129.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "97101a3d-e68f-4ca8-ba51-29d2273f29f5")
+	)
+	(gr_line
+		(start 209.2 38.8)
+		(end 274.6 38.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "982dab1a-b6e7-4b06-b198-099f2180f9d7")
+	)
+	(gr_line
+		(start 209.2 38.8)
+		(end 209.2 45.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "991ead3c-01e1-4cef-af17-342e65b5ca14")
+	)
+	(gr_arc
+		(start 275.6 137.6)
+		(mid 275.307107 138.307107)
+		(end 274.6 138.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9bbb4e31-652f-4ff7-a1b1-10e7933189b5")
+	)
+	(gr_arc
+		(start 274.6 38.8)
+		(mid 275.307107 39.092893)
+		(end 275.6 39.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9c02f687-95d5-44e8-950e-1e8a76443eb5")
+	)
+	(gr_line
+		(start 275.6 137.6)
+		(end 275.6 39.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b389d7df-c52b-4db4-84db-1d025b64de2f")
+	)
+	(gr_rect
+		(start 226 105.2)
+		(end 242 123.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "bcbc40df-a85e-427a-bfa2-0ec454c63c2e")
+	)
+	(gr_arc
+		(start 20.6 39.8)
+		(mid 20.892893 39.092893)
+		(end 21.6 38.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c91c4f56-e5b5-495e-a5da-8e56dafb45de")
+	)
+	(gr_arc
+		(start 21.6 138.6)
+		(mid 20.892893 138.307107)
+		(end 20.6 137.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d5b1ebb4-75e9-4c31-8fef-8796c596a96f")
+	)
+	(gr_line
+		(start 160.4 54.6)
+		(end 209.2 45.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e55f0cdb-8a95-40b0-a1c6-2cc917e5b24b")
+	)
+	(gr_line
+		(start 134.8 72.4)
+		(end 160.4 72.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f3030b15-108d-4013-a57a-c28479ee4b6d")
+	)
+	(gr_rect
+		(start 53 105.2)
+		(end 68 124)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "fd6b519b-38eb-4ad0-b3cf-69c36b56e738")
+	)
+	(embedded_fonts no)
+)

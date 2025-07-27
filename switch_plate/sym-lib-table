@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "kbd")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}/kbd-main/kicad-symbols/kbd.kicad_sym")(options "")(descr "\r"))
+  (lib (name "Salicylic_kbd")(type "Legacy")(uri "${KICAD_USER_LIB_DIR}/KiCAD_FootPrint-master/Salicylic_kbd_Library/Salicylic_kbd.lib")(options "")(descr "\r"))
+  (lib (name "kicad-lib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}/kicad-symbols/kicad-symbols.kicad_sym")(options "")(descr "\r"))
+  (lib (name "xiao")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}/OPL_Kicad_Library-master/Seeed Studio XIAO Series Library/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
+)
