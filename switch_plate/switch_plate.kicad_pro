@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "assemble.kicad_pro",
+    "filename": "switch_plate.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -503,7 +503,7 @@
       "plot": "../jclpcb/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "assemble.step",
+      "step": "switch_plate.step",
       "svg": "",
       "vrml": ""
     },
