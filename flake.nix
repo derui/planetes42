@@ -48,6 +48,7 @@
               pkgs.kicad
               pkgs.inkscape
               pkgs.freecad
+              pkgs.openscad
             ];
 
             shellHook = ''
