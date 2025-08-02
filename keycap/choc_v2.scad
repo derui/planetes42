@@ -1,5 +1,5 @@
 $fs = 0.1;
-//$fa = 0.25;
+$fa = 0.25;
 stem_outer_size = 5.8;
 stem_slit_size = 1.3;
 stem_slit_length = 4.2;
@@ -128,18 +128,18 @@ module keycap_sumkey() {
 }
 
 for (x = [0, 1, 2, 3, 4, 5])
-    translate([17 * x, 0 , 0])
+    translate([19 * x, 0 , 0])
       keycap_top();
 
 
 for (x = [0, 1, 2, 3, 4, 5])
-    translate([17 * x, 17 , 0])
+    translate([19 * x, 19 , 0])
       keycap_center();
     
 for (x = [0, 1, 2, 3, 4, 5])
-    translate([17 * x, 17 * 2 , 0])
+    translate([19 * x, 19 * 2 , 0])
       keycap_bottom();
 
 for (x = [0, 1, 2])
-    translate([17 * x, 17 * 3 , 0])
+    translate([19 * x, 19 * 3 , 0])
       keycap_sumkey();
