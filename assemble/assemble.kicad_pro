@@ -500,7 +500,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../jclpcb_20250728/",
+      "plot": "../jclpcb_20250813/assemble",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "assemble.step",
