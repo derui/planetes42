@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "kbd_Hole")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}/KiCAD_FootPrint-master/kbd_Hole")(options "")(descr "\r"))
+  (lib (name "kbd_Parts")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}/KiCAD_FootPrint-master/kbd_Parts")(options "")(descr "\r"))
+  (lib (name "kbd_SW")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}/KiCAD_FootPrint-master/kbd_SW")(options "")(descr "\r"))
+  (lib (name "kbd_SW_Hole")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}/KiCAD_FootPrint-master/kbd_SW_Hole")(options "")(descr "\r"))
+  (lib (name "kbd_SW_PCBA")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}/KiCAD_FootPrint-master/kbd_SW_PCBA")(options "")(descr "\r"))
+  (lib (name "kicad-lib")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}/kicad-footprints/kicad-lib.pretty")(options "")(descr "\r"))
+  (lib (name "xiao")(type "KiCad")(uri "${KICAD_USER_LIB_DIR}/OPL_Kicad_Library-master/Seeed Studio XIAO Series Library")(options "")(descr ""))
+)
